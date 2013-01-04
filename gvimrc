@@ -12,25 +12,21 @@ set background=dark
 "set transparency=6
 syntax on
 set nu
-set lines=100 columns=115
+set lines=105 columns=115
 " set NerdTree size
 let NERDTreeWinSize = 22
 
 set guioptions-=T "egmrt
-set autoindent
-set cindent   
-" TAB = 4
-set expandtab
-set tabstop=4
-" shiftwith
-set shiftwidth=4
-" softtabstop
-"set softtabstop=4
 set cursorline
 
-""""""""""""""""""""""""""""""""""""""""""
+"------------------------------------------
 " plugin config
-""""""""""""""""""""""""""""""""""""""""""
-" clang_complete
+"------------------------------------------
+
+" set clang_complete
 "set completeopt=longest,menu
+
+" set podweline
+set laststatus=2   " Always show the statusline
+"set encoding=utf-8 " Necessary to show Unicode glyphs
 

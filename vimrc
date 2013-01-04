@@ -61,8 +61,18 @@ set number
 set history=1000
 set hlsearch			"high light search result
 set noswapfile			"no .swp file
+set encoding=utf-8
 "set ruler
 
-" for poweline
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show Unicode glyphs
+" indent
+set autoindent
+set cindent   
+" TAB = 4
+" set tap = 8' '
+set expandtab
+"set tabstop=4
+" shiftwith
+"set shiftwidth=4
+" softtabstop
+"set softtabstop=4
+
