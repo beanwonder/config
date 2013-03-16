@@ -24,18 +24,21 @@ Bundle 'gmarik/vundle'
 " Color
 Bundle 'altercation/vim-colors-solarized'
 " Syntax
-Bundle 'c.vim'
-Bundle 'snipMate'
- "Bundle 'Lokaltog/vim-easymotion'
- "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
- "Bundle 'tpope/vim-rails.git'
- " vim-scripts repos
- "Bundle 'L9'
- "Bundle 'FuzzyFinder'
- " non github repos
- "Bundle 'git://git.wincent.com/command-t.git'
- " ...
+" chek Syntax for python
+"Bundle 'c.vim'
+Bundle 'honza/snipmate-snippets'
+"Bundle 'Lokaltog/vim-easymotion'
+"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Bundle 'tpope/vim-rails.git'
+" vim-scripts repos
+"Bundle 'L9'
+"Bundle 'FuzzyFinder'
+" non github repos
+"Bundle 'git://git.wincent.com/command-t.git'
+" ...
 " Plugin
+Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'majutsushi/tagbar'
 Bundle 'a.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-powerline'
@@ -67,12 +70,17 @@ set encoding=utf-8
 " indent
 set autoindent
 set cindent   
-" TAB = 4
+
 " set tap = 8' '
+set tabstop=8
 set expandtab
-"set tabstop=4
 " shiftwith
-"set shiftwidth=4
+set shiftwidth=8
 " softtabstop
-"set softtabstop=4
+set softtabstop=8
+"set for ctags dir
+let g:tagbar_ctags_bin='/usr/local/bin/ctags' "when python file is being edit
+let g:tagbar_width=26 
+
+au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 

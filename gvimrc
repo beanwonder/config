@@ -12,7 +12,7 @@ set background=dark
 "set transparency=6
 syntax on
 set nu
-set lines=105 columns=115
+set lines=105 columns=110
 " set NerdTree size
 let NERDTreeWinSize = 22
 
@@ -29,4 +29,5 @@ set cursorline
 " set podweline
 set laststatus=2   " Always show the statusline
 "set encoding=utf-8 " Necessary to show Unicode glyphs
+let g:indent_guides_guide_size = 1 
 
