@@ -9,7 +9,7 @@
 set guifont=Monaco:h16
 colorscheme solarized
 set background=dark
-"set transparency=6
+set transparency=10
 syntax on
 set nu
 set lines=105 columns=110
