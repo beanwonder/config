@@ -33,7 +33,9 @@ Bundle "tomtom/tlib_vim"
 Bundle "honza/snipmate-snippets"
 "Install
 Bundle "garbas/vim-snipmate"
-
+" YouCompleteMe
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'scrooloose/syntastic'
 "Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
 "Bundle 'tpope/vim-rails.git'
 " vim-scripts repos
@@ -43,11 +45,11 @@ Bundle "garbas/vim-snipmate"
 "Bundle 'git://git.wincent.com/command-t.git'
 " ...
 " Plugin
-Bundle 'wincent/Command-T'
 Bundle 'majutsushi/tagbar'
 Bundle 'a.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'Yggdroot/indentLine'
 filetype plugin indent on     " required!
 "
 " Brief help
@@ -84,9 +86,18 @@ set expandtab
 set shiftwidth=8
 " softtabstop
 set softtabstop=8
-"set for ctags dir
-let g:tagbar_ctags_bin='/usr/local/bin/ctags' "when python file is being edit
-let g:tagbar_width=25 
-
+" for python code
 au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
+" SET FOR PLUGINS
+"set for ctags dir
+let g:tagbar_ctags_bin='/usr/local/bin/ctags' "when python file is being edit
+let g:tagbar_width=23
+
+" youcompleteme key set
+let g:ycm_key_list_select_completion = ['<Enter>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<Up>']
+let g:ycm_autoclose_preview_window_after_completion = 1
+
+" set for solarized menu
+let g:solarized_menu=0
