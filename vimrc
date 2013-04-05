@@ -87,12 +87,12 @@ set expandtab
 set shiftwidth=8
 " softtabstop
 set softtabstop=8
-" for python code
+" for python code when python file is being edit
 au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 " SET FOR PLUGINS
 "set for ctags dir
-let g:tagbar_ctags_bin='/usr/local/bin/ctags' "when python file is being edit
+let g:tagbar_ctags_bin='/usr/local/bin/ctags'
 let g:tagbar_width=23
 
 " youcompleteme key set
