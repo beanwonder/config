@@ -28,11 +28,12 @@ Bundle 'altercation/vim-colors-solarized'
 "Bundle 'Lokaltog/vim-easymotion'
 
 "Install garbas/vim-snipmate dependencies:
-Bundle "MarcWeber/vim-addon-mw-utils"
-Bundle "tomtom/tlib_vim"
-Bundle "honza/snipmate-snippets"
+Bundle 'MarcWeber/vim-addon-mw-utils'
+Bundle 'tomtom/tlib_vim'
+Bundle 'honza/vim-snippets'
 "Install
-Bundle "garbas/vim-snipmate"
+Bundle 'garbas/vim-snipmate'
+
 " YouCompleteMe
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
