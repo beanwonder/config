@@ -1,4 +1,4 @@
 vimconf
-=======
+===
 
-my vim confs integrated with amazing Vundle
+my vim configrations integrated with amazing Vundle

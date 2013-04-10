@@ -31,7 +31,7 @@ set laststatus=2   " Always show the statusline
 "set encoding=utf-8 " Necessary to show Unicode glyphs
 
 " set indentLine_gui
-let g:indentLine_color_gui = '#A4E57E'
+let g:indentLine_color_gui = '#00FF00'
 
 " -----------------------------------------------------------------
 " Solarized Colorscheme Config
