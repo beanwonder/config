@@ -87,8 +87,8 @@ set expandtab
 set shiftwidth=8
 " softtabstop
 set softtabstop=8
-" for python code when python file is being edit
-au FileType python setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
+" for python cpp java set 
+au FileType python, cpp, java setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 " SET FOR PLUGINS
 "set for ctags dir
