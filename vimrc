@@ -23,15 +23,13 @@ Bundle 'gmarik/vundle'
 "
 " Color
 Bundle 'altercation/vim-colors-solarized'
-" Syntax
-"Bundle 'c.vim'
-"Bundle 'Lokaltog/vim-easymotion'
 
-"Install garbas/vim-snipmate dependencies:
+" Syntax
+" Install garbas/vim-snipmate dependencies:
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 Bundle 'honza/vim-snippets'
-"Install
+" Install
 Bundle 'garbas/vim-snipmate'
 
 " YouCompleteMe
