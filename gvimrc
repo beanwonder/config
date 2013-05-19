@@ -11,9 +11,8 @@ set background=dark
 set transparency=15
 syntax on
 set nu
-set lines=110 columns=120
+set lines=110 columns=110
 " set NerdTree size
-let NERDTreeWinSize = 22
 
 set guioptions-=T "egmrt
 set cursorline

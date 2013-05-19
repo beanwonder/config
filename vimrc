@@ -1,13 +1,13 @@
-"===============================================
+"================================================
 " Beanwonder's Configuration file for vim
 " File:.vimrc
 " Author:beanwonder
 " Email:bingwonder@gmail.com
-"===============================================
+"================================================
 
 
 """"""""""""""""""""""""""""""""""""""""""""""
-"           config for vundle                "
+" =>        config for vundle                "
 """"""""""""""""""""""""""""""""""""""""""""""
 set nocompatible               " be iMproved
 filetype off  	               " required!
@@ -35,11 +35,9 @@ Bundle 'garbas/vim-snipmate'
 " YouCompleteMe
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'scrooloose/syntastic'
-"Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-"Bundle 'tpope/vim-rails.git'
+
 " vim-scripts repos
 "Bundle 'L9'
-"Bundle 'FuzzyFinder'
 " non github repos
 "Bundle 'git://git.wincent.com/command-t.git'
 " ...
@@ -64,7 +62,7 @@ filetype plugin indent on     " required!
 
 
 "--------------------------------------------
-" My General vim conf
+" => My General Vim Config
 "--------------------------------------------
 syntax on
 set number
@@ -76,7 +74,9 @@ set encoding=utf-8
 
 " indent
 set autoindent
-set cindent   
+"set cindent   
+set smarttab
+set smartindent
 
 " set tap = 8' '
 set tabstop=8
@@ -86,15 +86,19 @@ set shiftwidth=8
 " softtabstop
 set softtabstop=8
 " for python cpp java set 
-au FileType python, cpp, java setlocal tabstop=8 expandtab shiftwidth=4 softtabstop=4
+au FileType python,cpp,java,ruby setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
-" SET FOR PLUGINS
+
+" ---------------------------------------------
+"  => SET FOR PLUGINS
+" ---------------------------------------------
 "set for ctags dir
 let g:tagbar_ctags_bin='/usr/local/bin/ctags'
-let g:tagbar_width=23
+let g:tagbar_width=20
+let NERDTreeWinSize = 20
 
 " youcompleteme key set
-let g:ycm_key_list_select_completion = ['<Enter>', '<Down>']
+let g:ycm_key_list_select_completion = ['<Down>']
 let g:ycm_key_list_previous_completion = ['<Up>']
 let g:ycm_autoclose_preview_window_after_completion = 1
 
