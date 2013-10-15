@@ -11,7 +11,7 @@ set background=dark
 set transparency=15
 syntax on
 set nu
-set lines=110 columns=110
+set lines=110 columns=125
 " set NerdTree size
 
 set guioptions-=T "egmrt
@@ -25,11 +25,12 @@ set cursorline
 "set completeopt=longest,menu
 
 " set podweline
-set laststatus=2   " Always show the statusline
-"set encoding=utf-8 " Necessary to show Unicode glyphs
+" set laststatus=2   " Always show the statusline
+" set encoding=utf-8 " Necessary to show Unicode glyphs
 
 " set indentLine_gui
-let g:indentLine_color_gui = '#00FF00'
+" let g:indentLine_color_gui = '#00FF00'
+let g:indentLine_color_gui = '#A4E57E'
 
 " -----------------------------------------------------------------
 " Solarized Colorscheme Config
