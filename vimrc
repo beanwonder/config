@@ -1,5 +1,4 @@
-"================================================
-" Beanwonder's Configuration file for vim
+"================================================ " Beanwonder's Configuration file for vim
 " File:.vimrc
 " Author:beanwonder
 " Email:bingwonder@gmail.com
@@ -51,10 +50,11 @@ Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'godlygeek/tabular'
 Bundle 'scrooloose/nerdcommenter'
-Bundle 'chrisbra/NrrwRgn'
+"Bundle 'chrisbra/NrrwRgn'
 Bundle 'Raimondi/delimitMate'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'jmcantrell/vim-virtualenv'
+Bundle 'beanwonder/google_python_style'
 filetype plugin indent on     " required!
 "
 " Brief help
@@ -95,11 +95,8 @@ set shiftwidth=8
 set softtabstop=8
 " for python cpp java set
 au FileType python,cpp,java,ruby setlocal tabstop=4 shiftwidth=4 softtabstop=4
-
 set foldmethod=syntax           "代码折叠
-set autoread                    "文件在Vim之外修改过，自动重新读入
 "
-
 
 " ---------------------------------------------
 "  => SET FOR PLUGINS

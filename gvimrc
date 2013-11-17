@@ -11,7 +11,7 @@ set background=dark
 set transparency=15
 syntax on
 set nu
-set lines=110 columns=125
+set lines=105 columns=120
 " set NerdTree size
 
 set guioptions-=T "egmrt
