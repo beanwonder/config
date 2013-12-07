@@ -1,7 +1,8 @@
-"================================================ " Beanwonder's Configuration file for vim
-" File:.vimrc
-" Author:beanwonder
-" Email:bingwonder@gmail.com
+"================================================ 
+" Beanwonder's Configuration file for vim       =
+" File:.vimrc                                   =
+" Author:beanwonder                             =
+" Email:bingwonder@gmail.com                    =
 "================================================
 
 
@@ -28,7 +29,6 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 Bundle 'honza/vim-snippets'
-" Install
 Bundle 'garbas/vim-snipmate'
 
 " YouCompleteMe
@@ -55,6 +55,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'jmcantrell/vim-virtualenv'
 Bundle 'beanwonder/google_python_style'
+Bundle 'terryma/vim-multiple-cursors'
 filetype plugin indent on     " required!
 "
 " Brief help
@@ -70,7 +71,7 @@ filetype plugin indent on     " required!
 
 
 "--------------------------------------------
-" => My General Vim Config
+" => My General Vim Config                  -
 "--------------------------------------------
 syntax on
 set number
@@ -99,7 +100,7 @@ set foldmethod=syntax           "代码折叠
 "
 
 " ---------------------------------------------
-"  => SET FOR PLUGINS
+"  => SET FOR PLUGINS                         -
 " ---------------------------------------------
 "set for ctags dir
 let g:tagbar_ctags_bin = '/usr/local/bin/ctags'
@@ -107,9 +108,10 @@ let g:tagbar_width = 20
 let NERDTreeWinSize = 20
 
 " youcompleteme key set
-let g:ycm_key_list_select_completion = ['<Down>']
-let g:ycm_key_list_previous_completion = ['<Up>']
+let g:ycm_key_list_select_completion = ['<C-j>']
+let g:ycm_key_list_previous_completion = ['<C-k>']
 let g:ycm_autoclose_preview_window_after_completion = 1
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 
 " set for solarized menu
 let g:solarized_menu = 0
