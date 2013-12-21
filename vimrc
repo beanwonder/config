@@ -79,6 +79,7 @@ set history=500
 set hlsearch			"high light search result
 set noswapfile			"no .swp file
 set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 "set ruler
 
 " indent
