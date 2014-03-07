@@ -33,7 +33,6 @@ Bundle 'garbas/vim-snipmate'
 
 " YouCompleteMe
 Bundle 'Valloric/YouCompleteMe'
-Bundle 'scrooloose/syntastic'
 
 " vim-scripts repos
 "Bundle 'L9'
