@@ -118,7 +118,7 @@ let g:solarized_menu = 0
 
 " set air-line
 set laststatus=2
-let g:airline_powerline_fonts = 1
+" let g:airline_powerline_fonts = 1
 
 " set numbers.vim
 nnoremap <F2> :NumbersToggle<CR>
@@ -126,14 +126,13 @@ let g:numbers_exclude = ['nerdtree']
 
 " vim-airline
 " 状态栏插件，更好的状态栏效果
-"  let g:airline_theme='laederon'
+let g:airline_theme='laederon'
 "  let g:airline_theme='tomorrow'
 "  let g:airline_theme='luna'
 "  let g:airline_theme='solarized'
 "  let g:airline_theme='badwolf'
-let g:airline_theme = 'powerlineish'
-let g:airline_left_sep = ''
-let g:airline_right_sep = ''
+"  let g:airline_theme = 'powerlineish'
+let g:airline_theme = 'bubblegum'
 "  let g:airline_enable_syntstic = 1
 "  let g:girline_enable_branch = 1
 "  let g:airline_exclude_npreview = 1
