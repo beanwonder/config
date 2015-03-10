@@ -138,7 +138,6 @@ nnoremap <F2> :NumbersToggle<CR>
 let g:numbers_exclude = ['nerdtree']
 
 " vim-airline
-" 状态栏插件，更好的状态栏效果
 let g:airline_theme='laederon'
 "  let g:airline_theme='tomorrow'
 "  let g:airline_theme='luna'
@@ -151,4 +150,4 @@ let g:airline_theme = 'bubblegum'
 "  let g:airline_exclude_npreview = 1
 "  set noshowmode
 "  let g:bufferline = 0
-let g:airline_detect_whitespace = 0
+" let g:airline_detect_whitespace = 0
