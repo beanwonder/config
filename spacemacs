@@ -156,6 +156,8 @@ before layers configuration."
   ;; User initialization goes here
   )
 
+(setq-default dotspacemacs-configuration-layers '(osx))
+
 (defun dotspacemacs/config ()
   "Configuration function.
  This function is called at the very end of Spacemacs initialization after
