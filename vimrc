@@ -63,6 +63,7 @@ Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'beanwonder/google_python_style'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'roman/golden-ratio'
+Plugin 'powerline/fonts'
 "
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -124,30 +125,46 @@ let NERDTreeWinSize = 20
 let g:ycm_key_list_select_completion = ['<C-j>']
 let g:ycm_key_list_previous_completion = ['<C-k>']
 let g:ycm_autoclose_preview_window_after_completion = 1
-let g:ycm_path_to_python_interpreter = '/usr/bin/python'
+let g:ycm_path_to_python_interpreter = ''
 
 " set for solarized menu
 let g:solarized_menu = 0
-
-" set air-line
-set laststatus=2
-" let g:airline_powerline_fonts = 1
 
 " set numbers.vim
 nnoremap <F2> :NumbersToggle<CR>
 let g:numbers_exclude = ['nerdtree']
 
 " vim-airline
-let g:airline_theme='laederon'
-"  let g:airline_theme='tomorrow'
-"  let g:airline_theme='luna'
-"  let g:airline_theme='solarized'
-"  let g:airline_theme='badwolf'
-"  let g:airline_theme = 'powerlineish'
-let g:airline_theme = 'bubblegum'
+" set air-line
+set laststatus=2
+
+if !exists('g:airline_symbols')
+  let g:airline_symbols = {}
+endif
+
+let g:airline_powerline_fonts = 1
+
+" let g:airline_theme='bubblegum'
+let g:airline_theme='base16'
+"  let g:airline_theme='laederon'
+" let g:airline_theme='tomorrow'
+" let g:airline_theme='light'
+" let g:airline_theme='solarized'
 "  let g:airline_enable_syntstic = 1
 "  let g:girline_enable_branch = 1
 "  let g:airline_exclude_npreview = 1
 "  set noshowmode
 "  let g:bufferline = 0
 " let g:airline_detect_whitespace = 0
+
+" let g:airline_left_sep = '>'
+" let g:airline_right_sep = '<'
+let g:airline_symbols.crypt = '🔒'
+let g:airline_symbols.linenr = '␊'
+let g:airline_symbols.linenr = '␤'
+let g:airline_symbols.linenr = '¶'
+let g:airline_symbols.branch = '⎇'
+let g:airline_symbols.paste = 'ρ'
+let g:airline_symbols.paste = 'Þ'
+let g:airline_symbols.paste = '∥'
+let g:airline_symbols.whitespace = 'Ξ'

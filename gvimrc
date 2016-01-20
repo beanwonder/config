@@ -5,16 +5,16 @@
 """"""""""""""""""""""""""""""""""""""""""""""""""""
 
 " set UI   
-set guifont=Monaco:h16
+set guifont=hack:h15
 colorscheme solarized
 set background=dark
-set transparency=15
+set transparency=10
 syntax on
 set nu
-set lines=105 columns=120
+set lines=100 columns=150
 " set NerdTree size
 
-set guioptions-=T "egmrt
+set guioptions-=T 
 set cursorline
 
 " --------------------------------------------
@@ -35,9 +35,7 @@ let g:indentLine_color_gui = '#A4E57E'
 " -----------------------------------------------------------------
 " Solarized Colorscheme Config
 " -----------------------------------------------------------------
-let g:solarized_contrast="high"    "default value is normal
+" let g:solarized_contrast="high"    "default value is normal
 syntax enable
-set background=dark
-colorscheme solarized
 " ------------------------------------------------------------------
 "
