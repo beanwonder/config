@@ -63,7 +63,7 @@ Plugin 'jmcantrell/vim-virtualenv'
 Plugin 'beanwonder/google_python_style'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'roman/golden-ratio'
-Plugin 'powerline/fonts'
+Plugin 'vim-airline/vim-airline-themes'
 "
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -145,11 +145,11 @@ endif
 let g:airline_powerline_fonts = 1
 
 " let g:airline_theme='bubblegum'
-let g:airline_theme='base16'
+" let g:airline_theme='base16'
 "  let g:airline_theme='laederon'
 " let g:airline_theme='tomorrow'
 " let g:airline_theme='light'
-" let g:airline_theme='solarized'
+let g:airline_theme='solarized'
 "  let g:airline_enable_syntstic = 1
 "  let g:girline_enable_branch = 1
 "  let g:airline_exclude_npreview = 1
@@ -157,8 +157,8 @@ let g:airline_theme='base16'
 "  let g:bufferline = 0
 " let g:airline_detect_whitespace = 0
 
-" let g:airline_left_sep = '>'
-" let g:airline_right_sep = '<'
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
 let g:airline_symbols.crypt = '🔒'
 let g:airline_symbols.linenr = '␊'
 let g:airline_symbols.linenr = '␤'
